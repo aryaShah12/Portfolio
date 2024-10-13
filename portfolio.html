@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Developer Portfolio</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Roboto', sans-serif; /* Clean, modern font */
+            background-color: #0a0a0a; /* Dark background */
+            color: #eaeaea; /* Light text color */
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        /* Header Section */
+        header {
+            background: linear-gradient(135deg, #00bcd4, #2196f3); /* Futuristic gradient */
+            color: white;
+            padding: 60px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        header h1 {
+            font-size: 48px;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 30px;
+            margin: 30px auto;
+            width: 90%;
+            max-width: 1000px;
+            background-color: #1c1c1c;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        h2 {
+            color: #00bcd4; /* Cool futuristic cyan */
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        p, li {
+            font-size: 18px;
+            font-weight: 300;
+            margin-bottom: 10px;
+        }
+
+        /* Projects Section */
+        .projects img {
+            width: 100%;
+            max-width: 450px;
+            border-radius: 10px;
+            margin-top: 15px;
+            box-shadow: 0 0 10px rgba(33, 150, 243, 0.7); /* Subtle glowing border */
+        }
+
+        /* Links */
+        a {
+            color: #00e5ff; /* Bright futuristic link color */
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #40c4ff; /* Lighter blue on hover */
+        }
+
+        /* Skills List */
+        .skills ul, .projects ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills ul li, .projects ul li {
+            margin-bottom: 10px;
+        }
+
+        /* Buttons */
+        .button {
+            display: inline-block;
+            padding: 12px 20px;
+            color: white;
+            background-color: #2196f3;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            transition: background 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #40c4ff; /* Lighter blue on hover */
+        }
+
+        /* Contact Section */
+        .contact {
+            text-align: center;
+            padding: 20px;
+            background-color: #0d47a1; /* Darker blue contact section */
+            color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .contact a {
+            color: white;
+            padding: 12px 20px;
+            background-color: #1e88e5;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .contact a:hover {
+            background-color: #42a5f5;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0a0a0a;
+            color: #757575;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        footer p {
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <h1>Your Name - Game Developer</h1>
+    <p>Unity | C# | 3D Game Development</p>
+</header>
+
+<section class="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm a passionate game developer with experience in creating engaging games using Unity. I specialize in FPS games, endless runners, and interactive gameplay mechanics.</p>
+</section>
+
+<section class="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>Unity Game Development</li>
+        <li>C# Programming</li>
+        <li>3D Modeling (Blender)</li>
+        <li>Version Control (Git)</li>
+        <li>Game Design</li>
+        <li>UI/UX in Games</li>
+    </ul>
+</section>
+
+<section class="projects">
+    <h2>Projects</h2>
+    <ul>
+        <li>
+            <h3>Endless Runner Game</h3>
+            <p>A fun endless runner game where the player avoids obstacles while collecting points. Developed in Unity with custom-designed levels and smooth controls.</p>
+            <p><a href="https://github.com/yourusername/endless-runner" class="button">View on GitHub</a></p>
+            <img src="menu.png" alt="Endless Runner Game Screenshot">
+            <img src="Score.png" alt="Endless Runner Game Screenshot">
+            <img src="Game.png" alt="Endless Runner Game Screenshot">
+        </li>
+        <li>
+            <h3>FPS Shooting Game</h3>
+            <p>A first-person shooter with player movement, gun mechanics, and object destruction. Features dynamic muzzle flash effects and responsive shooting controls.</p>
+            <p><a href="https://github.com/yourusername/fps-shooting-game" class="button">View on GitHub</a></p>
+            <img src="your-project-image2.jpg" alt="FPS Game Screenshot">
+        </li>
+    </ul>
+</section>
+
+<section class="achievements">
+    <h2>Accomplishments & Certificates</h2>
+    <ul>
+        <li>Diploma in 3D Game Development with Unity Engine - Online Certificate</li>
+        <li>Started learning Japanese as a hobby</li>
+    </ul>
+</section>
+
+<section class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:aryashah2401@gmail.com">aryashah2401@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Your Name. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
